@@ -1,4 +1,4 @@
-install.packages("opencv")
+ install.packages("opencv")
 install.packages("magick")
 library(opencv)
 library(magick)
