@@ -7,9 +7,9 @@ import matplotlib.pyplot as plt
 from scipy.optimize import minimize
 
 # Set up relative paths
-project_dir = "/Users/joannacorimanya/Desktop/KU/Classes/machine_learning/final_project"
-img_path = os.path.join(project_dir, "Monoplotting", "Bald Lake", "img", "140_2024", "take3.jpg")
-dem_path = os.path.join(project_dir, "Monoplotting", "Bald Lake", "dtm", "Uintas_DEM.tif")
+project_dir = "C:/Users/asque/Documents/Uintas/Bald Lake-20240923T162814Z-001/Bald Lake"
+img_path = os.path.join(project_dir, "img", "140_2024", "take3.jpg")
+dem_path = os.path.join(project_dir,  "dtm", "Uintas_DEM.tif")
 output_keypoints_img = os.path.join(project_dir, "data", "keypoints.csv")
 output_matches = os.path.join(project_dir, "data", "matches.csv")
 output_camera_params = os.path.join(project_dir, "data", "camera_params.csv")
